@@ -1,0 +1,5 @@
+abcmtestemail,valid,testadmin,valid
+abcmtestemail,valid,test,invalid
+abcmtestemail,valid,,invalid
+abcmtest,invalid,
+,invalid

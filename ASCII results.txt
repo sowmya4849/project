@@ -1,0 +1,4 @@
+count of lowercase letters is24
+count of uppercase letters is24
+count of digits  is21
+count of special chars is17
