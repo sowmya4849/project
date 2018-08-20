@@ -6,6 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.opera.OperaDriver;
 import org.openqa.selenium.opera.OperaOptions;
 
 public class crossbrowsertesting {
@@ -24,7 +25,7 @@ public class crossbrowsertesting {
 		    driver=new FirefoxDriver();
 		}
 		else if(x.equals("ie")) {
-			System.setProperty("webdriver.ie.driver", "E:\\mindq\\iedriverserver.exe");
+			System.setProperty("webdriver.ie.driver", "E:\\mindq\\IEDriverServer.exe");
 		    driver=new InternetExplorerDriver();
 		    
 		}else if(x.equals("opera"))
@@ -32,7 +33,7 @@ public class crossbrowsertesting {
 			OperaOptions o=new OperaOptions();
 			o.setBinary("C:\\Program Files (x86)\\Opera\\53.0.2907.68\\opera.exe");
 			System.setProperty("webdriver.opera.driver", "‪E:\\mindq\\operadriver_win64\\operadriver.exe");
-		    driver=new InternetExplorerDriver();
+		    driver=new OperaDriver();
 		}
 		else {
 			System.out.println("wrong browser");
